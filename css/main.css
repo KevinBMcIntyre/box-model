@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+}
+h1 {
+	background-color: orange;
+	padding: .5em 0.5em 0 5em;
+	margin: 0 .5em;
+	border: 5px solid #f00;
+	border-radius: 2em .9em 2em .9em;
+	display:inline-block;
+}
+
+a{
+	background-color: green;
+	display: block;
+}
+nav {
+	background-color: blue;
+	text-align: center;
+}
+
+nav ul{
+	background-color:lightblue;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+nav li{
+	display: inline;
+}
+nav a {
+	display: inline-block;
+	padding: 0 0.5em 0 0.75em;
+	background-color: magenta;
+	color: white;
+	text-decoration: none;
+	border-radius: 2em .9em 2em .9em;
+	border: 2px solid white;
+}
+nav a:hover{
+	background-color: red;
+	border-radius: .9em 2em .9em 2em;
+	border: 2px solid blue;
+}
